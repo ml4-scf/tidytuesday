@@ -21,7 +21,7 @@ ggplot(df, aes(x=reorder(name, count), y=count))+
   geom_label(aes(label = count), nudge_y = 1.5, color="lightblue", label.padding = unit(0.2, "lines"))+
   coord_flip()+
   scale_x_discrete()+
-  labs(title="Which country fines most frequently?", x="",y="", caption = "Source: https://www.privacyaffairs.com/gdpr-fines/")+
+  labs(title="Which country imposed the most fines?", x="",y="", caption = "Source: https://www.privacyaffairs.com/gdpr-fines/")+
   theme(
     text = element_text(color = "white", family = "mono"),
     axis.text = element_text(color = "white"),
