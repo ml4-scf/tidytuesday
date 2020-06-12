@@ -37,4 +37,4 @@ plot <- ggplot(data, aes(x = decade, fill = category)) +
         plot.background = element_rect(fill ="slategray"))
 
 
-plot
+ggsave(filename="2020_06_09_AAA\\output\\AAA.png", scale = 1.15)
